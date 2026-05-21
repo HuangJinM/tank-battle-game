@@ -25,21 +25,17 @@ Open `index.html` in any modern browser.
 - Procedural sound effects (Web Audio API)
 - Retro pixel-art style rendered on Canvas
 
-## Deployment (GitHub Pages)
+## Play Online
 
-1. Create a new GitHub repository (e.g., `tank-battle`)
-2. Push this file to the `main` branch:
-   ```
-   git init
-   git add index.html README.md
-   git commit -m "Initial commit: Tank Battle game"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/tank-battle.git
-   git push -u origin main
-   ```
-3. Go to repository **Settings → Pages**
-4. Under "Source", select **Deploy from a branch** → `main` → `/ (root)` → Save
-5. Game will be live at `https://YOUR_USERNAME.github.io/tank-battle/`
+**[Play Now](https://huangjinm.github.io/tank-battle-game/)**
+
+## Development
+
+```bash
+git clone https://github.com/HuangJinM/tank-battle-game.git
+cd tank-battle-game
+# Open index.html in your browser
+```
 
 ## License
 
